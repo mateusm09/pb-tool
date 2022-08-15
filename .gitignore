@@ -13,3 +13,4 @@ logs/
 README.html
 
 *.proto
+bin/
