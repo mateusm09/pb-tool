@@ -1,11 +1,3 @@
-# Typescript Boilerplate
+# Protobuf Tool
 
-Projeto template com typescript pré-configurado
-
-## Ferramentas adicionadas: 
-- Typescript
-- Jest 
-- ESLint
-- Babel
-- Prettier
-- Nodemon
+CLI utility for encoding/decoding Protobuf files and return messages as string/JSON

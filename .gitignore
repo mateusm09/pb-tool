@@ -11,3 +11,5 @@ logs/
 !.env.example
 
 README.html
+
+*.proto
