@@ -33,8 +33,13 @@
         "generate:bin": "pkg ."
     },
     "dependencies": {
+        "@types/mqtt": "^2.5.0",
+        "@types/walk": "^2.3.1",
         "arg": "^5.0.2",
-        "inquirer": "^8.2.0",
+        "fs": "^0.0.1-security",
+        "inquirer": "8.2.4",
+        "mqtt": "^4.3.7",
+        "passport": "^0.6.0",
         "protobufjs": "^7.0.0"
     },
     "bin": "build/index.js",
