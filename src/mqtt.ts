@@ -14,7 +14,6 @@ const errorHandler = (err: string) => {
     if (err) {
         console.log(err)
     }
-
 }
 
 function EventConnect(): void {

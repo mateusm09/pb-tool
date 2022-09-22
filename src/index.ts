@@ -1,8 +1,7 @@
-import { chooseMessage, inputParams, parseArgs,} from './cli';
+import { chooseMessage, inputParams, parseArgs, } from './cli';
 import fs from 'fs';
 import protobuf from 'protobufjs';
 import { parseMessageNames } from './protobuf';
-import path from "path";
 // import mqtt from 'mqtt';
 
 
@@ -32,9 +31,9 @@ async function main() {
     const root = await protobuf.load(file);
     const messages = parseMessageNames(root.nested);
     const result = await chooseMessage(messages);
-    const message:any = root.lookupType(result);
+    const message: any = root.lookupType(result);
     const payload = await inputParams(message);
- 
+
     console.log('Payload:', payload);
     const error = message.verify(payload);
 
